@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>
+        Your Checklist - ForgetMeNot
+    </title>
+
+    <link
+        rel="stylesheet"
+        href="{{ url_for('static', filename='style.css') }}"
+    >
+
+</head>
+
+<body>
+
+<div class="page-wrapper">
+
+    <!-- NAVBAR -->
+
+    <nav class="navbar">
+
+        <div class="nav-logo">
+
+            <div class="nav-logo-icon">
+                🧠
+            </div>
+
+            ForgetMeNot
+
+        </div>
+
+        <a
+            href="/logout"
+            class="logout-btn"
+        >
+            Logout
+        </a>
+
+    </nav>
+
+
+    <!-- CHECKLIST -->
+
+    <main class="checklist-container">
+
+        <section class="result-header">
+
+            <div class="result-icon">
+                ✅
+            </div>
+
+            <h1>
+                Your Smart Checklist
+            </h1>
+
+            <p>
+                Here's what ForgetMeNot thinks you should
+                remember before you go.
+            </p>
+
+
+            <div class="result-info">
+
+                <span class="info-pill">
+                    📍 {{ destination }}
+                </span>
+
+                <span class="info-pill">
+                    🎯 {{ activity }}
+                </span>
+
+            </div>
+
+        </section>
+
+
+        <!-- CHECKLIST CARD -->
+
+        <section class="checklist-card">
+
+            <h2>
+                🎒 Things to Remember
+            </h2>
+
+
+            <form id="checklistForm">
+
+                {% for item in recommendations %}
+
+                <label class="checklist-item">
+
+                    <input
+                        type="checkbox"
+                        class="item-checkbox"
+                    >
+
+                    <span>
+                        {{ item }}
+                    </span>
+
+                </label>
+
+                {% endfor %}
+
+
+                <div class="ready-section">
+
+                    <button
+                        type="button"
+                        class="btn btn-primary"
+                        onclick="checkReady()"
+                    >
+                        ✅ I'm Ready!
+                    </button>
+
+                    <div
+                        id="readyMessage"
+                        class="ready-message"
+                    >
+                        🎉 Great! You're ready to go.
+                    </div>
+
+                </div>
+
+            </form>
+
+        </section>
+
+
+        <br>
+
+
+        <a
+            href="/"
+            class="btn btn-secondary"
+            style="
+                display:block;
+                text-align:center;
+                max-width:300px;
+                margin:20px auto;
+            "
+        >
+            ← Create Another Checklist
+        </a>
+
+    </main>
+
+
+    <footer class="footer">
+
+        ForgetMeNot © 2026
+
+    </footer>
+
+</div>
+
+
+<script>
+
+function checkReady() {
+
+    const checkboxes =
+        document.querySelectorAll(
+            ".item-checkbox"
+        );
+
+    const checked =
+        document.querySelectorAll(
+            ".item-checkbox:checked"
+        );
+
+    const message =
+        document.getElementById(
+            "readyMessage"
+        );
+
+
+    if (
+        checked.length ===
+        checkboxes.length
+    ) {
+
+        message.style.display = "block";
+
+        message.innerHTML =
+            "🎉 Perfect! You've packed everything. You're ready to go!";
+
+    }
+
+    else {
+
+        message.style.display = "block";
+
+        message.innerHTML =
+            "⚠️ You still have " +
+            (
+                checkboxes.length -
+                checked.length
+            ) +
+            " item(s) to check.";
+
+    }
+
+}
+
+</script>
+
+</body>
+
+</html>

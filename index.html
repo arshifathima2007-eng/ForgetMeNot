@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>ForgetMeNot - Smart Reminder</title>
+
+    <link
+        rel="stylesheet"
+        href="{{ url_for('static', filename='style.css') }}"
+    >
+
+</head>
+
+<body>
+
+<div class="page-wrapper">
+
+    <!-- NAVBAR -->
+
+    <nav class="navbar">
+
+        <div class="nav-logo">
+
+            <div class="nav-logo-icon">
+                🧠
+            </div>
+
+            ForgetMeNot
+
+        </div>
+
+        <a
+            href="/logout"
+            class="logout-btn"
+        >
+            Logout
+        </a>
+
+    </nav>
+
+
+    <!-- HERO -->
+
+    <section class="hero">
+
+        <div class="hero-badge">
+            ✨ AI-Powered Smart Reminder
+        </div>
+
+        <h1>
+            Never Forget
+            <span class="gradient-text">
+                What Matters
+            </span>
+        </h1>
+
+        <p>
+            Tell ForgetMeNot where you're going and what
+            you're doing. Our intelligent system creates
+            a personalized checklist of things you should
+            remember to take.
+        </p>
+
+    </section>
+
+
+    <!-- MAIN CARD -->
+
+    <section class="main-card">
+
+        <h2>
+            👋 Hello, {{ name }}!
+        </h2>
+
+        <p class="card-description">
+            Enter your destination and activity to generate
+            your personalized checklist.
+        </p>
+
+
+        <form
+            action="/recommend"
+            method="POST"
+        >
+
+            <div class="input-grid">
+
+                <div class="input-box">
+
+                    <label for="destination">
+                        📍 Where are you going?
+                    </label>
+
+                    <input
+                        type="text"
+                        id="destination"
+                        name="destination"
+                        placeholder="Example: College"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="input-box">
+
+                    <label for="activity">
+                        🎯 What are you doing?
+                    </label>
+
+                    <input
+                        type="text"
+                        id="activity"
+                        name="activity"
+                        placeholder="Example: Presentation"
+                        required
+                    >
+
+                </div>
+
+            </div>
+
+
+            <button
+                type="submit"
+                class="btn btn-primary"
+            >
+                ✨ Generate My Checklist
+            </button>
+
+        </form>
+
+    </section>
+
+
+    <!-- FEATURES -->
+
+    <section class="features">
+
+        <div class="feature-card">
+
+            <div class="feature-icon">
+                🤖
+            </div>
+
+            <h3>
+                AI Powered
+            </h3>
+
+            <p>
+                Uses a machine learning model to understand
+                your destination and activity.
+            </p>
+
+        </div>
+
+
+        <div class="feature-card">
+
+            <div class="feature-icon">
+                📋
+            </div>
+
+            <h3>
+                Smart Checklist
+            </h3>
+
+            <p>
+                Get a personalized list of important things
+                you should remember before leaving.
+            </p>
+
+        </div>
+
+
+        <div class="feature-card">
+
+            <div class="feature-icon">
+                📱
+            </div>
+
+            <h3>
+                Works Everywhere
+            </h3>
+
+            <p>
+                Designed to work smoothly on phones,
+                tablets, laptops and desktop computers.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <footer class="footer">
+
+        ForgetMeNot © 2026
+
+    </footer>
+
+</div>
+
+</body>
+
+</html>

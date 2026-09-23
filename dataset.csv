@@ -1,0 +1,349 @@
+destination,activity,category
+college,study,college_study
+college,class,college_study
+college,lecture,college_study
+college,regular class,college_study
+college,morning class,college_study
+college,afternoon class,college_study
+college,notes,college_study
+college,study session,college_study
+college,lab class,college_study
+college,theory class,college_study
+college,college learning,college_study
+college,daily lecture,college_study
+college,exam,college_exam
+college,test,college_exam
+college,semester exam,college_exam
+college,internal exam,college_exam
+college,model exam,college_exam
+college,exam preparation,college_exam
+college,revision,college_exam
+college,final exam,college_exam
+college,unit test,college_exam
+college,assessment,college_exam
+college,write exam,college_exam
+college,exam day,college_exam
+college,presentation,college_presentation
+college,seminar,college_presentation
+college,seminar presentation,college_presentation
+college,class presentation,college_presentation
+college,project presentation,college_presentation
+college,give presentation,college_presentation
+college,presentation day,college_presentation
+college,seminar day,college_presentation
+college,ppt presentation,college_presentation
+college,academic presentation,college_presentation
+college,group presentation,college_presentation
+college,college seminar,college_presentation
+college,project,college_project
+college,project work,college_project
+college,project meeting,college_project
+college,project submission,college_project
+college,project review,college_project
+college,final year project,college_project
+college,mini project,college_project
+college,coding project,college_project
+college,project demo,college_project
+college,project discussion,college_project
+college,project presentation,college_project
+college,project development,college_project
+school,study,school_study
+school,class,school_study
+school,lecture,school_study
+school,school class,school_study
+school,morning class,school_study
+school,homework,school_study
+school,notes,school_study
+school,study session,school_study
+school,tuition,school_study
+school,school learning,school_study
+school,daily class,school_study
+school,lesson,school_study
+school,exam,school_exam
+school,test,school_exam
+school,school exam,school_exam
+school,unit test,school_exam
+school,term exam,school_exam
+school,exam preparation,school_exam
+school,revision,school_exam
+school,final exam,school_exam
+school,assessment,school_exam
+school,class test,school_exam
+school,write exam,school_exam
+school,exam day,school_exam
+school,sports,school_sports
+school,sports day,school_sports
+school,football,school_sports
+school,cricket,school_sports
+school,athletics,school_sports
+school,basketball,school_sports
+school,volleyball,school_sports
+school,sports practice,school_sports
+school,games,school_sports
+school,school competition,school_sports
+school,physical education,school_sports
+school,sports meet,school_sports
+office,work,office_work
+office,office work,office_work
+office,daily work,office_work
+office,workday,office_work
+office,desk work,office_work
+office,coding work,office_work
+office,documentation,office_work
+office,client work,office_work
+office,task work,office_work
+office,office tasks,office_work
+office,work session,office_work
+office,regular office,office_work
+office,meeting,office_meeting
+office,team meeting,office_meeting
+office,client meeting,office_meeting
+office,staff meeting,office_meeting
+office,project meeting,office_meeting
+office,office meeting,office_meeting
+office,business meeting,office_meeting
+office,online meeting,office_meeting
+office,meeting day,office_meeting
+office,discussion,office_meeting
+office,team discussion,office_meeting
+office,review meeting,office_meeting
+office,presentation,office_presentation
+office,office presentation,office_presentation
+office,client presentation,office_presentation
+office,business presentation,office_presentation
+office,team presentation,office_presentation
+office,project presentation,office_presentation
+office,presentation meeting,office_presentation
+office,ppt meeting,office_presentation
+office,company presentation,office_presentation
+office,demo presentation,office_presentation
+office,work presentation,office_presentation
+office,presentation day,office_presentation
+office,interview,office_interview
+office,job interview,office_interview
+office,office interview,office_interview
+office,HR interview,office_interview
+office,technical interview,office_interview
+office,company interview,office_interview
+office,interview round,office_interview
+office,interview meeting,office_interview
+office,career interview,office_interview
+office,interview day,office_interview
+office,selection interview,office_interview
+office,candidate interview,office_interview
+gym,workout,gym_workout
+gym,exercise,gym_workout
+gym,training,gym_workout
+gym,gym session,gym_workout
+gym,strength training,gym_workout
+gym,cardio,gym_workout
+gym,weight training,gym_workout
+gym,fitness workout,gym_workout
+gym,morning workout,gym_workout
+gym,evening workout,gym_workout
+gym,gym training,gym_workout
+gym,fitness session,gym_workout
+gym,yoga,gym_yoga
+gym,yoga class,gym_yoga
+gym,meditation,gym_yoga
+gym,stretching,gym_yoga
+gym,morning yoga,gym_yoga
+gym,evening yoga,gym_yoga
+gym,yoga session,gym_yoga
+gym,flexibility training,gym_yoga
+gym,breathing exercise,gym_yoga
+gym,mindfulness,gym_yoga
+gym,yoga practice,gym_yoga
+gym,relaxation session,gym_yoga
+hospital,appointment,hospital_appointment
+hospital,doctor appointment,hospital_appointment
+hospital,medical appointment,hospital_appointment
+hospital,clinic appointment,hospital_appointment
+hospital,doctor visit,hospital_appointment
+hospital,scheduled visit,hospital_appointment
+hospital,consultation,hospital_appointment
+hospital,hospital visit,hospital_appointment
+hospital,specialist appointment,hospital_appointment
+hospital,follow up appointment,hospital_appointment
+hospital,medical consultation,hospital_appointment
+hospital,appointment day,hospital_appointment
+hospital,checkup,hospital_checkup
+hospital,health checkup,hospital_checkup
+hospital,medical checkup,hospital_checkup
+hospital,routine checkup,hospital_checkup
+hospital,doctor checkup,hospital_checkup
+hospital,blood test,hospital_checkup
+hospital,health screening,hospital_checkup
+hospital,medical test,hospital_checkup
+hospital,general checkup,hospital_checkup
+hospital,full body checkup,hospital_checkup
+hospital,follow up checkup,hospital_checkup
+hospital,diagnostic test,hospital_checkup
+hospital,emergency,hospital_emergency
+hospital,medical emergency,hospital_emergency
+hospital,urgent treatment,hospital_emergency
+hospital,emergency visit,hospital_emergency
+hospital,accident,hospital_emergency
+hospital,urgent care,hospital_emergency
+hospital,emergency treatment,hospital_emergency
+hospital,critical situation,hospital_emergency
+hospital,ambulance visit,hospital_emergency
+hospital,emergency room,hospital_emergency
+hospital,urgent hospital visit,hospital_emergency
+hospital,medical urgency,hospital_emergency
+beach,relax,beach_relax
+beach,relaxing,beach_relax
+beach,sunset,beach_relax
+beach,beach walk,beach_relax
+beach,sit at beach,beach_relax
+beach,enjoy beach,beach_relax
+beach,watch sunset,beach_relax
+beach,leisure,beach_relax
+beach,peaceful evening,beach_relax
+beach,beach relaxation,beach_relax
+beach,spend time,beach_relax
+beach,morning beach,beach_relax
+beach,swimming,beach_swimming
+beach,swim,beach_swimming
+beach,sea swimming,beach_swimming
+beach,water activity,beach_swimming
+beach,swim at beach,beach_swimming
+beach,ocean swim,beach_swimming
+beach,beach swim,beach_swimming
+beach,swimming session,beach_swimming
+beach,go swimming,beach_swimming
+beach,swim in sea,beach_swimming
+beach,water sports,beach_swimming
+beach,morning swim,beach_swimming
+beach,picnic,beach_picnic
+beach,beach picnic,beach_picnic
+beach,family picnic,beach_picnic
+beach,friends picnic,beach_picnic
+beach,outdoor picnic,beach_picnic
+beach,picnic lunch,beach_picnic
+beach,picnic day,beach_picnic
+beach,snack picnic,beach_picnic
+beach,family outing,beach_picnic
+beach,group picnic,beach_picnic
+beach,picnic with friends,beach_picnic
+beach,beach outing,beach_picnic
+travel,trip,travel_trip
+travel,journey,travel_trip
+travel,road trip,travel_trip
+travel,travel,travel_trip
+travel,short trip,travel_trip
+travel,tour,travel_trip
+travel,travel day,travel_trip
+travel,weekend trip,travel_trip
+travel,solo trip,travel_trip
+travel,group trip,travel_trip
+travel,holiday trip,travel_trip
+travel,local trip,travel_trip
+travel,vacation,travel_vacation
+travel,holiday,travel_vacation
+travel,vacation trip,travel_vacation
+travel,family vacation,travel_vacation
+travel,summer vacation,travel_vacation
+travel,tourist trip,travel_vacation
+travel,holiday travel,travel_vacation
+travel,vacation day,travel_vacation
+travel,resort vacation,travel_vacation
+travel,sightseeing,travel_vacation
+travel,long vacation,travel_vacation
+travel,leisure travel,travel_vacation
+travel,business,travel_business
+travel,business trip,travel_business
+travel,work travel,travel_business
+travel,official travel,travel_business
+travel,business meeting,travel_business
+travel,client visit,travel_business
+travel,corporate trip,travel_business
+travel,office travel,travel_business
+travel,business tour,travel_business
+travel,work trip,travel_business
+travel,professional travel,travel_business
+travel,company trip,travel_business
+travel,family,travel_family
+travel,family trip,travel_family
+travel,family travel,travel_family
+travel,visit family,travel_family
+travel,family vacation,travel_family
+travel,family outing,travel_family
+travel,family journey,travel_family
+travel,travel with family,travel_family
+travel,family holiday,travel_family
+travel,relatives visit,travel_family
+travel,family tour,travel_family
+travel,family function,travel_family
+airport,flight,airport_flight
+airport,airport travel,airport_flight
+airport,boarding,airport_flight
+airport,air travel,airport_flight
+airport,catch flight,airport_flight
+airport,international flight,airport_flight
+airport,domestic flight,airport_flight
+airport,airport visit,airport_flight
+airport,flight journey,airport_flight
+airport,boarding flight,airport_flight
+airport,departure,airport_flight
+airport,airplane travel,airport_flight
+library,study,library_study
+library,library study,library_study
+library,research,library_study
+library,read notes,library_study
+library,academic research,library_study
+library,study session,library_study
+library,exam study,library_study
+library,quiet study,library_study
+library,reference study,library_study
+library,library work,library_study
+library,assignment research,library_study
+library,learning session,library_study
+library,reading,library_reading
+library,read book,library_reading
+library,book reading,library_reading
+library,novel reading,library_reading
+library,reference reading,library_reading
+library,reading session,library_reading
+library,library reading,library_reading
+library,read quietly,library_reading
+library,research reading,library_reading
+library,textbook reading,library_reading
+library,magazine reading,library_reading
+library,leisure reading,library_reading
+shopping,shopping,shopping
+shopping,clothes shopping,shopping
+shopping,mall shopping,shopping
+shopping,buy clothes,shopping
+shopping,shopping mall,shopping
+shopping,general shopping,shopping
+shopping,buy items,shopping
+shopping,shopping trip,shopping
+shopping,retail shopping,shopping
+shopping,buy gifts,shopping
+shopping,shopping day,shopping
+shopping,market shopping,shopping
+shopping,grocery,shopping_grocery
+shopping,grocery shopping,shopping_grocery
+shopping,buy groceries,shopping_grocery
+shopping,supermarket,shopping_grocery
+shopping,food shopping,shopping_grocery
+shopping,monthly groceries,shopping_grocery
+shopping,buy vegetables,shopping_grocery
+shopping,buy food,shopping_grocery
+shopping,kitchen shopping,shopping_grocery
+shopping,household shopping,shopping_grocery
+shopping,groceries list,shopping_grocery
+shopping,daily groceries,shopping_grocery
+interview,job,interview_job
+interview,career,interview_job
+interview,job interview,interview_job
+interview,interview,interview_job
+interview,employment interview,interview_job
+interview,company interview,interview_job
+interview,placement interview,interview_job
+interview,campus interview,interview_job
+interview,career meeting,interview_job
+interview,recruitment,interview_job
+interview,job selection,interview_job
+interview,interview day,interview_job
